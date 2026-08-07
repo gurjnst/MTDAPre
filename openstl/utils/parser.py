@@ -104,7 +104,7 @@ def create_parser():
                         help='Gradient clipping mode. One of ("norm", "value", "agc")')
     parser.add_argument('--early_stop_epoch', default=-1, type=int,
                         help='Check to early stop after this epoch')
-    parser.add_argument('--no_display_method_info', action='store_true', default=False,
+    parser.add_argument('--no_display_method_info', action='store_true', default=True,
                         help='Do not display method info')
 
     # Training parameters (scheduler)
@@ -199,7 +199,7 @@ def default_parser():
         'clip_grad': None,
         'clip_mode': 'norm',
         'early_stop_epoch': -1,
-        'no_display_method_info': False,
+        'no_display_method_info': True,
         # Training parameters (scheduler)
         'sched': 'onecycle',
         'lr': 1e-3,
