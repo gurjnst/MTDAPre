@@ -14,13 +14,12 @@ pip install netCDF4 h5py h5netcdf dask thop
 ```
 
 ## Overview
-`models/` contains the implementation of MTDAPre and related modules.  
-`datasets/` contains dataset loading and preprocessing codes.  
-`configs/` contains training configuration files.  
-`tools/` contains auxiliary training and evaluation scripts.
-
-## Train
-python train.py
+- `configs/weather/`: contains training configs for different meteorological forecasting settings.
+- `openstl/models/mtdapre_t.py`: contains the MTDAPre model for target meteorological field prediction.
+- `openstl/models/mtdapre_m.py`: contains the MTDAPre model with middle fusion strategy.
+- `openstl/models/mtdapre_c.py`: contains the MTDAPre model with early fusion settings.
+- `openstl/modules/mtdapre_modules.py`: contains the basic modules used in MTDAPre.
+- `openstl/datasets/dataloader_weather.py`: contains the data loading and preprocessing code for WeatherBench experiments.
 
 ## Quicktest
 python quick_test.py
