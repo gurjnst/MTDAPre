@@ -11,7 +11,7 @@ pip install tensorboard einops matplotlib
 pip install natten==0.21.6+torch2110cu126 -f https://whl.natten.org
 pip install opencv-python==4.8.1.78 numpy==1.24.3
 pip install netCDF4 h5py h5netcdf dask thop
-
+```
 
 ## Overview
 - `configs/weather/`: contains training configs for different meteorological forecasting settings.
