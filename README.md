@@ -1,5 +1,5 @@
 # MTDAPre
-MTDAPre is a target variable guided model designed for MISO (Multiple-Input Single-Output) meteorological field prediction, where multiple input variables are used to forecast a specific target variable. The repository also provides SISO (Single-Input Single-Output) and MIMO (Multiple-Input Multiple-Output) experimental configurations in the `configs` directory.
+MTDAPre is a target guided model designed for MISO (Multiple-Input Single-Output) meteorological field prediction, where multiple meteorological variables are used to forecast a specific target variable. The repository also supports SISO (Single-Input Single-Output) and MIMO (Multiple-Input Multiple-Output) settings.
 
 ## Installation
 ```bash
