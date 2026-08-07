@@ -35,7 +35,7 @@ python train.py
 
 ## Datasets
 - [WeatherBench](https://arxiv.org/abs/2002.00469) (ArXiv'2020) [[download](https://github.com/pangeo-data/WeatherBench)]
-- [NJU-CPOL](https://doi.org/10.1029/2021GL095302) (GRL'2021) [[download](https://doi.org/10.5281/zenodo.5109403)]
+- [NJU-CPOL](https://doi.org/10.1029/2021GL095302) (GRL'2021) [[download](https://zenodo.org/records/5109403)]
 
 ## Acknowledgments
 Our code is based on [OpenSTL](https://github.com/chengtan9907/OpenSTL) and [PredFormer](https://github.com/yyyujintang/PredFormer).
