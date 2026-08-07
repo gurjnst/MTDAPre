@@ -22,6 +22,8 @@ pip install netCDF4 h5py h5netcdf dask thop
 - `openstl/datasets/dataloader_weather.py`: contains the data loading and preprocessing code for WeatherBench experiments.
 
 ## Quicktest
+Run the quick test script to verify the initialization and inference of MTDAPre.
+```bash
 python quick_test.py
 
 ## Datasets
