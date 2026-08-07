@@ -28,7 +28,7 @@ python quick_test.py
 ```
 
 ## Train
-Modify the training configurations in `configs/` and run:
+Modify the configuration path in `train.py` and run:
 ```bash
 python train.py
 ```
